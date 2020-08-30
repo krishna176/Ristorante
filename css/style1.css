@@ -1,0 +1,154 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.4;
+    padding: 50px 0px 0px 0px;
+    margin: 2rem;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    z-index: 0;
+}
+
+p {
+    font-size: 19px;
+}
+
+a {
+    margin: 5px;
+}
+
+h2 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.row-header {
+    margin: 0px auto;
+    padding: 0px;
+}
+
+.tab-content {
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    padding: 10px;
+}
+
+.row-content {
+    margin: 0px auto;
+    padding: 50px 0px 50px 0px;
+    border-bottom: 1px ridge;
+    min-height: 400px;
+}
+
+.footer {
+    background-color: #D1C4E9;
+    margin: 0px auto;
+    padding: 20px 0px 20px 0px;
+}
+
+.jumbotron {
+    padding: 70px 4px 50px 30px;
+    margin: 0px auto;
+    background: #9575CD;
+    color: floralwhite;
+}
+
+.address {
+    font-size: 80%;
+    margin: 0px;
+    color: #0f0f0f;
+}
+
+.navbar-dark {
+    background-color: #512DA8;
+    margin: 2rem;
+    margin-top: 0px;
+    height: 60px;
+}
+
+.fa {
+    padding: 8px;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+
+/* Add a hover effect if you want */
+
+.fa:hover {
+    opacity: 0.7;
+    border-radius: 10px;
+}
+
+
+/* Set a specific color for each brand */
+
+
+/* Google */
+
+.fa-google {
+    background: #DD4B39;
+    color: white;
+}
+
+
+/* Facebook */
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+
+/* Twitter */
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+
+/* linkedin */
+
+.fa-linkedin {
+    background: #007BB6;
+    color: white;
+}
+
+
+/* youtube */
+
+.fa-youtube {
+    background: #FF5500;
+    color: white;
+}
+
+.carousel {
+    background: #512DA8;
+}
+
+.carousel-item {
+    height: 300px;
+}
+
+.carousel-item img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-height: 300px;
+}
+
+#carouselButton {
+    right: 18px;
+    position: absolute;
+    bottom: 5px;
+    z-index: 1;
+}
